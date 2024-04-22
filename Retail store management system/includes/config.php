@@ -3,7 +3,7 @@
 |--------------------------------------------------------------------------
 | OWSA-INV V2
 |--------------------------------------------------------------------------
-| Author: Siamon Hasan
+| Author: SHEIKH MAMUN
 | Project Name: OSWA-INV
 | Version: v2
 | Offcial page: http://oswapp.com/
