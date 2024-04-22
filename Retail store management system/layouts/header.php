@@ -16,7 +16,7 @@
   <body>
   <?php  if ($session->isUserLoggedIn(true)): ?>
     <header id="header">
-      <div class="logo pull-left">Retail Store Mangement System</div>
+      <div class="logo pull-left">Mangement System</div>
       <div class="header-content">
       <div class="header-date pull-left">
         <strong><?php echo date("F j, Y, g:i a");?></strong>

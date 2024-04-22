@@ -3,7 +3,7 @@
 |--------------------------------------------------------------------------
 | OWSA-INV V2
 |--------------------------------------------------------------------------
-| Author: SHEIKH MAMUN
+| Author: Rainbow-Group
 | Project Name: OSWA-INV
 | Version: v2
 | Offcial page: http://oswapp.com/

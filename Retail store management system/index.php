@@ -7,7 +7,7 @@
 <div class="login-page">
     <div class="text-center">
        <h1>Login Panel</h1>
-       <h4>Retail store Management System</h4>
+       <h4>Inventory Management System</h4>
      </div>
      <?php echo display_msg($msg); ?>
       <form method="post" action="auth.php" class="clearfix">
