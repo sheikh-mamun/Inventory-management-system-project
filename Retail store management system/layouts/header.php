@@ -16,19 +16,19 @@
   <body>
   <?php  if ($session->isUserLoggedIn(true)): ?>
     <header id="header">
-      <div class="logo pull-left">Mangement System</div>
+      <div class="logo pull-left" style="background-color: teal;">Mangement System</div>
       <div class="header-content">
       <div class="header-date pull-left">
         <strong><?php echo date("F j, Y, g:i a");?></strong>
       </div>
-      <div class="pull-right clearfix">
+      <div class="pull-right clearfix" style="background-color: teal;">
         <ul class="info-menu list-inline list-unstyled">
           <li class="profile">
             <a href="#" data-toggle="dropdown" class="toggle" aria-expanded="false">
               <img src="uploads/users/<?php echo $user['image'];?>" alt="user-image" class="img-circle img-inline">
               <span><?php echo remove_junk(ucfirst($user['name'])); ?> <i class="caret"></i></span>
             </a>
-            <ul class="dropdown-menu">
+            <ul class="dropdown-menu" style="background-color: teal;">
               <li>
                   <a href="profile.php?id=<?php echo (int)$user['id'];?>">
                       <i class="glyphicon glyphicon-user"></i>
@@ -53,7 +53,7 @@
       </div>
      </div>
     </header>
-    <div class="sidebar">
+    <div class="sidebar" style="background-color:SlateBlue;">
       <?php if($user['user_level'] === '1'): ?>
         <!-- admin menu -->
       <?php include_once('admin_menu.php');?>
