@@ -17,7 +17,7 @@
   </li>
   <li>
     <a href="supplier.php" >
-      <i class="glyphicon glyphicon-indent-left"></i>
+      <i class="glyphicon glyphicon-star"></i>
       <span>Supplier</span>
     </a>
   </li>
@@ -64,6 +64,20 @@
         <li><a href="daily_sales.php">Daily sales</a> </li>
       </ul>
   </li>
-</ul>
+  <li>
+    <a href="#" class="submenu-toggle">
+      <i class="glyphicon glyphicon-info-sign"></i>
+       <span>Staff List</span>
+       <ul class="nav submenu">
+        <li><a href="sales_re.php">Administrative Staff</a></li>
+        <li><a href="monthly_sal.php">Management Staff</a></li>
+        <li><a href="dail_sa.php">Finance Staff</a> </li>
+        <li><a href="dail_sal.php">Sales Staff</a> </li>
+        <li><a href="daily_sa.php">Healthcare Staff</a> </li>
+      </ul>
+      </a>
+    </li>
+  </ul>
+      
 
   
